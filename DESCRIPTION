@@ -15,3 +15,5 @@ License: GPL-2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
+URL: http://github.com/julieaubert/CHMM
+BugReports: http://github.com/julieaubert/CHMM/issues
