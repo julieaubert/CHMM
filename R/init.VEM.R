@@ -70,7 +70,8 @@ init.VEM <- function(X, nb.states, meth.init, var.equal, nbI, nbT){
   # postPr  ------------------------------------------------------
   postPr <- list()
   for(ind in 1:nbI){
-    tau.tmp <- data.frame(matrix(runif(nbT * nb.states, 0, 1), nbT, nb.states))
+    #tau.tmp <- data.frame(matrix(runif(nbT * nb.states, 0, 1), nbT, nb.states))
+    tau.tmp <- matrix(runif(nbT * nb.states, 0, 1), nbT, nb.states)
     tau.tmp <- tau.tmp / rowSums(tau.tmp)
     postPr[[ind]] <- tau.tmp
   }
