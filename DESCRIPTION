@@ -1,7 +1,7 @@
 Package: CHMM
 Type: Package
 Title: Coupled Hidden Markov Models
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(
     person("Xiaoqiang", "Wang", email = "xiaoqiang.wang@sdu.edu.cn", role = "aut"),
     person("Julie", "Aubert", email = "julie.aubert@agroparistech.fr", role = c("aut","cre"))
