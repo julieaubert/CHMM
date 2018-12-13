@@ -64,6 +64,7 @@ CHMM_VEM <- function(X, nb.states, S = NULL, omega = 0.7, meth.init = "mclust", 
 
       # Transform matrix to vectors     -----------------------------
       emisWVec <- as.vector(emisPrW)
+      emisWVec <- pmax(emisWVec, 1e-6)
       trsVec <- as.vector(transPr)
       initTmp <- as.vector(initPr * emisPrW[1,])
       initPr <- initTmp /sum(initTmp)
