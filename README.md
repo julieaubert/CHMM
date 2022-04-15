@@ -5,6 +5,7 @@ Coupled Hidden Markov Models
 
 This package implements an exact and a variational inference for coupled Hidden Markov Models applied to the joint detection of copy number variations.
 
+
 ## Installation
 
 You can install the released version of cobiclust from [CRAN](https://CRAN.R-project.org) with:
@@ -25,4 +26,6 @@ resCHMM <- coupledHMM(X = toydata, nb.states = 3, S = cor(toystatus),
 # Breakpoints positions and status of segments
 info <- clusterseg(resCHMM$status)
 ```
+## Reference
 
+Wang, Xiaoqiang, Lebarbier, Emilie, Aubert, Julie and Robin, Stéphane. "Variational Inference for Coupled Hidden Markov Models Applied to the Joint Detection of Copy Number Variations" The International Journal of Biostatistics, vol. 15, no. 1, 2019, pp. 20180023. https://doi.org/10.1515/ijb-2018-0023
