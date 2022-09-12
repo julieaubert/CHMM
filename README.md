@@ -8,7 +8,7 @@ This package implements an exact and a variational inference for coupled Hidden 
 
 ## Installation
 
-You can install the released version of cobiclust from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of CHMM from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
 install.packages("CHMM")
@@ -29,3 +29,6 @@ info <- clusterseg(resCHMM$status)
 ## Reference
 
 Wang, Xiaoqiang, Lebarbier, Emilie, Aubert, Julie and Robin, Stéphane. "Variational Inference for Coupled Hidden Markov Models Applied to the Joint Detection of Copy Number Variations" The International Journal of Biostatistics, vol. 15, no. 1, 2019, pp. 20180023. https://doi.org/10.1515/ijb-2018-0023
+
+Aubert, Julie, Wang, Xiaoqiang, Lebarbier, Emilie, Robin, Stéphane. "CHMM : an R package for coupled Hidden Markov Models". R User Conference 2017, Jul 2017, Bruxelles, Belgium. ⟨hal-01661257⟩
+
